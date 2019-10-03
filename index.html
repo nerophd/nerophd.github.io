@@ -58,14 +58,14 @@
 		</p></pre>
 
 <form>
-    <label for="pswd">are you dreaming?: </label>
+    <label for="pswd">are you dreamer? </label>
     <input type="password" id="pswd">
     <input type="button" value="continue" onclick="checkPswd();" />
 </form>
 <!--Function to check password the already set password is admin-->
 <script type="text/javascript">
     function checkPswd() {
-        var confirmPassword = "dreamer";
+        var confirmPassword = "yes";
         var password = document.getElementById("pswd").value;
         if (password == confirmPassword) {
              window.location="list.html";
